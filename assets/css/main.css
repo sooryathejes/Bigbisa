@@ -166,6 +166,7 @@ h6 {
   z-index: 997;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  max-width: 1440px;
 }
 
 .header .logo {
@@ -208,7 +209,10 @@ h6 {
   .header .logo {
     order: 1;
   }
-
+  .header {
+    
+    width: 90%; /* Adjust width as needed */
+  }
   .header .btn-getstarted {
     order: 2;
     margin: 0 15px 0 0;
@@ -769,6 +773,7 @@ section,
     font-size: 13px;
   }
 }
+
 
 @keyframes up-down {
   0% {
